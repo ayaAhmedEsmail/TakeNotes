@@ -1,4 +1,5 @@
 class Note{
+  late int id;
   late String title;
   late String content;
 

@@ -1,12 +1,15 @@
 import 'dart:async';
 import 'dart:io';
-class ReadFromFile{
+
+class ReadFromFile {
+  final file = File('notes.txt');
+
   Future<void> readNotesFromFile() async {
     try {
-      final file = File('notes.txt'); // File object
-      final contents = await file.readAsString(); // Read asynchronously
+      final contents = file.readAsStringSync();
       print(contents);
     } catch (e) {
-      print("Error reading notes: $e");
+      print('Error reading file: $e');
     }
-  }  }
+  }
+}

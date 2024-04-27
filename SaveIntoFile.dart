@@ -4,9 +4,9 @@ import 'dart:io';
 class SaveInFile {
   Future<void> saveNotesToFile(Note note) async {
     final filename = 'notes.txt';
-    final content = '${note.title} - ${note.content}';
+    final content = '${note.title} - ${note.content}  \n';
     try {
-      await File(filename).writeAsString(content);
+       File(filename).writeAsStringSync(content + '\n', mode: FileMode.append);
       print("Notes saved to file successfully.");
     } catch (e) {
       print("Error saving notes: $e");

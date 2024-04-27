@@ -18,6 +18,8 @@ class Menu extends Homepage {
     4. Delete Note
     5. Exit..    ''');
     stdout.write("Enter your choice: ");
+    String input = stdin.readLineSync()!;
+    show(input);
   }
 
   @override
@@ -32,13 +34,12 @@ class Menu extends Homepage {
         String content = stdin.readLineSync()!;
         addNote.addNote(title, content);
         stdout.write("Note successfully added. \n \n \n");
-
+        showHomePageMenu();
       case '2':
       // Show notes
-        stdout.write("Show Notes ");
+        stdout.write("Show Notes \n ");
         showNotes.showNotes();
-
-        //showHomePageMenu();
+        showHomePageMenu();
       case '3':
       // Edit notes
         print("Edit Notes..");

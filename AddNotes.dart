@@ -9,8 +9,8 @@ class AddNote{
     notes.add(Note(title,content));
     for (var note in notes) {
       print('Title: ${note.title}, Content: ${note.content}');
+      save.saveNotesToFile(Note(title, content));
     }
-    save.saveNotesToFile(Note(title, content));
   }
 
 

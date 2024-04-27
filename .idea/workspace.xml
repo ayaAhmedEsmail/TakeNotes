@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70d92afa-8146-45d5-82e1-6399ddc85165" name="Changes" comment="init" />
+    <list default="true" id="70d92afa-8146-45d5-82e1-6399ddc85165" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AddNotes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/AddNotes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Note.dart" beforeDir="false" afterPath="$PROJECT_DIR$/Note.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadFromFile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ReadFromFile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaveIntoFile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/SaveIntoFile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShowNotes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/ShowNotes.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714175679235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1714176266699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714176266699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,7 +86,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
